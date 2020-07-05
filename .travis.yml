@@ -1,0 +1,5 @@
+language: bash
+script:
+        - echo "動作確認"
+        - ./gcd_test.sh
+       
