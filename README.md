@@ -6,3 +6,8 @@ AIPを使用するため、KEYを環境変数へ登録する方法。
 ```
 $ export=OPEN_AI_KEY='sk-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
 ```
+
+環境変数に設定したKEYを削除する方法。
+```
+$ export -n OPEN_AI_KEY
+```
